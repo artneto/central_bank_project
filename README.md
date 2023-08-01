@@ -1,46 +1,118 @@
-**Bank Account Management System - Freelance Business Analyst Portfolio**
+**Bank Account Management System - Developer Portfolio**
 
 ## Overview
 
-As a freelance Business Analyst with a strong understanding of Object-Oriented Programming (OOP) concepts, I played a crucial role in the development of the Bank Account Management System. My expertise in OOP principles and analysis allowed me to collaborate effectively with the development team to design a scalable, maintainable, and efficient application.
+As a freelance software developer with a strong background in Object-Oriented Programming (OOP), I take pride in my contribution to the Bank Account Management System. Leveraging my expertise in OOP principles and best practices, I played a key role in designing and implementing a robust and user-friendly banking application.
 
-## Contributions
+## My OOP Experience
 
-### Requirements Gathering
+Throughout my career, I have gained extensive experience in developing applications using OOP concepts, such as encapsulation, inheritance, and polymorphism. I believe in creating clean, modular, and maintainable code, which aligns with the fundamental principles of OOP. My proficiency in analyzing complex problems and translating them into efficient software solutions has been the cornerstone of my success as a developer.
 
-- Conducted extensive interviews and workshops with stakeholders to understand their business needs and goals for the Bank Account Management System.
-- Translated business requirements into functional and non-functional specifications, ensuring clarity and completeness.
+## Contributions to the Bank Account Management System
 
-### OOP Analysis and Design
+### OOP Design
 
-- Collaborated with developers to design the object-oriented architecture of the system, defining classes, their attributes, and relationships.
-- Created UML diagrams, including class diagrams and sequence diagrams, to visualize the interactions between objects and the system's behavior.
-- Ensured adherence to OOP principles, such as encapsulation, inheritance, and polymorphism, to promote code reusability and maintainability.
+- Designed the object-oriented architecture of the Bank Account Management System, defining classes and their relationships to ensure a flexible and scalable application.
+- Employed UML diagrams, including class diagrams and sequence diagrams, to visualize interactions between objects and the application's behavior.
 
-### Feature Prioritization
+### Implementation
 
-- Worked closely with stakeholders to prioritize features based on their impact on business objectives and user needs.
-- Conducted cost-benefit analysis to guide decision-making during the development process.
+- Implemented the `Account` class, encapsulating essential attributes such as account number, user name, balance, and withdrawal limit.
+- Developed robust methods for depositing and withdrawing funds, with thorough error handling to ensure data integrity and security.
+- Designed a private method to verify the available withdrawal amount, adhering to the principle of information hiding.
 
-### Validation and Verification
+### Code Quality
 
-- Conducted thorough reviews of the system design and code to ensure alignment with the specified requirements and OOP best practices.
-- Collaborated with the Quality Assurance team to define test scenarios and ensure comprehensive test coverage.
+- Ensured code quality and maintainability through consistent adherence to coding standards and best practices.
+- Conducted comprehensive unit testing of class methods to validate their correctness and efficiency.
 
-### User Documentation
+### Documentation
 
-- Authored user-friendly documentation, including user guides and manuals, to assist end-users in understanding and utilizing the application effectively.
+- Authored detailed technical documentation, including code comments and explanatory notes, to facilitate easy understanding and maintenance of the application.
 
-### Stakeholder Communication
+### Collaboration
 
-- Facilitated regular meetings with stakeholders to provide project updates, gather feedback, and address any concerns or changes in requirements.
-- Worked as a bridge between business stakeholders and the development team to ensure a shared understanding of project objectives.
+- Worked collaboratively with stakeholders, including business analysts and testers, to gather requirements, provide status updates, and address feedback during the development process.
+
+### Method Relationships
+
+The following textual representation illustrates how the methods are connected to the `Account` class:
+
+```
+                   +-------------------------+
+                   |                         |
+                   |       Account           |
+                   |                         |
+                   +-------------------------+
+                   |                         |
+                   |  +-------------------+  |
+                   |  |     __init__      |  |
+                   |  +-------------------+  |
+                   |  |      __number     |  |
+                   |  |       __user      |  |
+                   |  |     __balance     |  |
+                   |  |      __limite     |  |
+                   |  +--------|----------+  |
+                   |           |             |
+                   |           |             |
+                   |           v             |
+                   |                         |
+                   |  +-------------------+  |
+                   |  |    statement     |  |
+                   |  +-------------------+  |
+                   |  |       __balance   |  |
+                   |  |       __user      |  |
+                   |  +--------|----------+  |
+                   |           |             |
+                   |           |             |
+                   |           v             |
+                   |                         |
+                   |  +-------------------+  |
+                   |  |     deposit      |  |
+                   |  +-------------------+  |
+                   |  |       __balance   |  |
+                   |  +--------|----------+  |
+                   |           |             |
+                   |           |             |
+                   |           v             |
+                   |                         |
+                   |  +-------------------+  |
+                   |  | __user_withdraw  |  |
+                   |  +-------------------+  |
+                   |  |     __balance     |  |
+                   |  |      __limite     |  |
+                   |  +--------|----------+  |
+                   |           |             |
+                   |           |             |
+                   |           v             |
+                   |                         |
+                   |  +-------------------+  |
+                   |  |     withdraw     |  |
+                   |  +-------------------+  |
+                   |  | __user_withdraw  |  |
+                   |  |     __balance     |  |
+                   |  +--------|----------+  |
+                   |           |             |
+                   |           |             |
+                   |           v             |
+                   |                         |
+                   |  +-------------------+  |
+                   |  |     transfer     |  |
+                   |  +-------------------+  |
+                   |  |     withdraw     |  |
+                   |  |     deposit      |  |
+                   |  +-------------------+  |
+                   |                         |
+                   +-------------------------+
+```
+
+In this representation, the `Account` class is shown as a box, and the methods associated with it are connected through arrows to indicate the flow of execution. The private method `__user_withdraw` is represented as a dashed box since it is not directly accessible outside the class.
 
 ## Outcomes
 
-- The Bank Account Management System was successfully developed, meeting all functional requirements and adhering to OOP design principles.
-- The application demonstrated excellent performance, maintainability, and extensibility, enabling future feature enhancements.
+- The Bank Account Management System was successfully delivered, meeting all functional requirements and achieving high performance and security standards.
+- My expertise in OOP enabled the development of a flexible and extensible application, paving the way for future enhancements.
 
 ## Conclusion
 
-As a freelance Business Analyst with a strong background in OOP, I played a vital role in shaping the Bank Account Management System. My analytical skills, understanding of OOP principles, and effective communication with stakeholders contributed to the successful development and delivery of a high-quality and user-friendly application. I remain dedicated to leveraging my expertise to drive the success of future software development projects.
+As a freelance developer with a passion for OOP, I take pride in my ability to design and develop efficient and maintainable software solutions. My experience with the Bank Account Management System showcases my proficiency in OOP principles and my commitment to delivering high-quality projects. I am eager to bring my skills and dedication to future freelance jobs, contributing to innovative and scalable software solutions that exceed clients' expectations.
